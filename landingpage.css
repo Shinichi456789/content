@@ -1,0 +1,57 @@
+/* 
+.row{
+    width: 500px;
+    height:32px;
+} */
+
+
+/* .display-1{
+    position: absolute;
+    text-align: center;
+    margin-left: 239px;
+    font-size: 3rem;
+}
+.col-sm{
+    display: flex;
+}
+.container{
+ display:block;
+}*/
+.h1{
+    text-align: center;
+}
+#wrapper{
+    position:relative;
+}
+ #masthead {   
+    height:500px;
+    width: 1912px;
+    /* min-height: 500%; */
+    background: url('./resources/bg-masthead.jpg') no-repeat center;
+    color:white;
+} 
+ #myNav{
+    display: flex;
+    justify-content: space-evenly;
+ }
+ .btn .btn-secondary{
+    background-color: blue;
+ }
+ .d-flex .justify-content-end .btn .btn-secondary{
+    background-color: blue;
+}
+.h1{
+    margin-bottom:10%;
+}
+
+/* .row {
+    text-align:center;
+    margin-top:15%;
+} */
+ /*
+.h1{
+    padding-top:90%;
+} */ 
+/* .feature-icons{
+    margin-right:-20%; 
+} */

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <script src="Main.js"></script>
+</head>
+<body style="background-color:white; margin-top:100px;" >
+<div class="C">
+    <div class="Main">
+    <h1 style="margin-left:25px;margin-top:2px;">Job Application Form Widget</h1>
+    <form id="reset" style="margin-top:-36px;">
+          <input style="margin-left:20px;margin-top:20px" type="text" placeholder="First name" onclick="validationFeild()"/>
+          <input style="margin-left:10px" type="text" placeholder="Last name" onclick="validationFeild()"/><br/>
+          <br/>
+          <input placeholder="Email" Pattern="[A-Za-z0-9]{5,18}@[a-z]{5,9}.[a-z]{2,3}$"  style="margin-left:20px" type="Email" onclick="validationFeild()"/>
+          <input Pattern="[0-9]{10}" style="margin-left:10px" type="tel" placeholder="Phone "/><br/>
+		  <br/>
+          <div style="border:1px solid gray;margin-left:20px;width:408px;margin-bottom:0px;">
+          <label class="input-select" onclick="loaddm()">
+            <select name="dmqg" id="dmqg" style="width:408px">
+                <option value="CountryList">CountryList</option>
+            </select>
+            <ul id="dmqg">
+              
+            </ul>
+       </label> 
+    </div>
+    <br/><br/>
+    <input id="A" placeholder="City" style="margin-left:20px;margin-top:0;" onclick="validationFeild()"/>
+    <br/><br/>
+    <input id="A" placeholder="Address" style="margin-left:20px" onclick="validationFeild()"/>
+	<br/><br/>
+    <div style="border:1px solid gray;margin-left:20px;width:408px;margin-bottom:0px;">
+    <label class="input-select2" onclick="validationFeild()">
+    <select style="border:none; width:408px">
+        <option value="none" selected="" disabled="">Choose desired position</option>
+        <option>Operator</option>
+        <option>Manager</option>
+        <option>Developer</option>
+        <option>Designer</option>
+        <option>Tester</option>
+    </select>
+    </label>
+    </div>
+	<br/><br/>
+    <input id="A" placeholder="Additional info" style="margin-left:20px;height:120px;margin-top:-15px" type="text" onclick="validationFeild()"/>
+	<br/><br/>
+    <div style="Border:1px solid gray;	width:407px;	margin-left:21px">
+        <input id="A" placeholder="Add your CV " style="width:337px;	border:none;"><button style="margin-bottom:4px;  background-color:orange;color:  white;border:none;">Browse</button>
+    </div>						
+        <label style="color:gray;margin-left:20px;">Only: pdf / doc Size:less than 1Mb </label><br/><br/>
+        
+    
+    <button class="B" style="margin-left:283px;" onclick="resetValues()">Reset</button>
+    <button class="B" style="margin-left:20px;" onclick="validationFeild()">Send</button>
+</form>
+</div>
+</div>
+</body>
+</html>

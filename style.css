@@ -1,0 +1,41 @@
+.C{
+    width:450px;
+    height:600px;
+    margin:0 auto;
+    margin-bottom:300px;
+    background-color:white;
+    color:white;
+    }
+
+.A{margin-left:60px;}
+.B{
+    background-color:orange;
+    font-size:18px;
+    color:white;
+    border:3px solid orange;}
+body{background-color:#01658c;
+background-repeat:no-repeat;
+}
+input{display:inline-block;
+    margin-top:7px;
+    color:gray;
+    width:190px;}
+    h1{display:inline-block;
+        margin-top:20px;
+        color:white;
+        margin-left:530px;
+        
+        } 
+                    
+#A{width:401px;}
+.Main{
+    background-color: black;
+    justify-content: space-between;
+    height:607px;
+}
+.input-select{
+    width:408px;
+}
+.input-select2{
+    width:408px;
+}
